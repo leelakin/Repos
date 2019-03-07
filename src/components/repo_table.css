@@ -1,0 +1,38 @@
+.repo-table {
+  background: #dbe9f0;
+  border: 1px solid #94bed1;
+}
+.repo-table .row {
+  display: flex;
+}
+.repo-table .row:last-child {
+  background: #f0e6db;
+}
+.repo-table .cell {
+  min-width: 33.3%;
+  max-width: 33.3%;
+  overflow-wrap: break-word;
+  text-align: center;
+  padding: 5px;
+}
+.repo-table .cell.data {
+  font-size: .8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repo-table .cell.data:first-child {
+  display: block;
+}
+.repo-table .headers {
+  display: flex;
+  font-weight: 600;
+}
+.repo-table .headers div {
+  width: 33.3%;
+}
+
+.repo-table .table-content {
+  flex-direction: column-reverse;
+  display: flex;
+}
